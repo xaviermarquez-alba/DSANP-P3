@@ -30,9 +30,11 @@ def sqrt(number):
        int: Floored Square Root
     """
 
-    if number is None or number < 0 or isinstance(number, basestring):
+    if number is None or isinstance(number, str):
         return -1
-
+    if number < 0:
+        return -1
+        
     result = calc_sqrt_recursive(1, number, number)
 
     return result
