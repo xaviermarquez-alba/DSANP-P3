@@ -1,7 +1,7 @@
 # Autocomplete with Tries
 ## Data Structure & Time/Space complexity
 
-In this problem we implement a "Trie" data structure for the autocomplete functionality, this will find all end suffixes of a given prefix that have a valid word stored
+In this problem I implement a "Trie" data structure for the autocomplete functionality, this will find all end suffixes for a given prefix that corresponds in a valid word
 
 For the time complexity we have:
 - Insert: is  O(n)  with n = len of the word
