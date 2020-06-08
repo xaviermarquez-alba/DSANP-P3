@@ -9,6 +9,6 @@ For the time complexity we have:
 - Autocomplete: uses get_suffixes function, this is O(n) with n = numbers of children's, sub-children.., of a word
 
 For the space complexity:
-- Insert: is O(n) with n = len of number of children's for that word, this will decrease when we have more repeat prefixes for multiple words
+- Insert: is O(n * m) with n = len of the word and m is the average of  Trie nodes encountered down 
 - Find: is O(1) we only return the result node
 - Autocomplete: uses get_suffixes function, this is O(n) with n = number of valid suffixes for a given word

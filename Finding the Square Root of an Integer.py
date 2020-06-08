@@ -31,7 +31,6 @@ def sqrt(number):
     """
 
     if number is None or number < 0 or isinstance(number, basestring):
-        print('Invalid Number!')
         return -1
 
     result = calc_sqrt_recursive(1, number, number)
